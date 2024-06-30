@@ -1,38 +1,64 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  background-color: #f0f2f5;
 }
 
-.App-link {
-  color: #61dafb;
+.app-title {
+  margin: 20px 0;
+  font-size: 2rem;
+  color: #1890ff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.quiz-card {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.question-text {
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+
+.radio-group {
+  width: 100%;
+}
+
+.radio-item {
+  display: block;
+  margin-bottom: 10px;
+  white-space: break-spaces;
+}
+
+.next-button {
+  margin-top: 20px;
+}
+
+.leaderboard-container {
+  width: 100%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.leaderboard-title {
+  font-size: 1.5rem;
+  margin-bottom: 16px;
+  color: #1890ff;
 }
